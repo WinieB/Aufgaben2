@@ -8,7 +8,7 @@ public class Schaltjahre {
         System.out.println("Bitte geben Sie eine Jahreszahl ein: ");
         int jahr = scanner.nextInt();
 
-        if (jahr % 4 == 0 && jahr % 100 == 0 && jahr % 400 != 0) {
+        if (jahr % 4 == 0 && jahr % 100 == 0 && jahr % 400 != 0) { // berechnet, ob es ein Schaltjahr ist
             System.out.println(jahr + " ist kein Schaltjahre");
         } else {
             System.out.println(jahr + " ist ein Schaltjahre");

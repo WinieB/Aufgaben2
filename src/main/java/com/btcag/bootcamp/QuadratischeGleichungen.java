@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class QuadratischeGleichungen {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // Scannereingabe für a, b, c
         System.out.println("Gibt dein a ein:");
         double a = scanner.nextDouble();
 
